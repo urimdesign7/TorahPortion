@@ -1,0 +1,6 @@
+{
+  "name": "주간 토라포션 (Weekly Torah Portion)",
+  "description": "주간별 토라포션과 하프타라, 브리트 하닷샤, 암송구절 묵상 리더. 이번주, 이전, 다음 주간 키 및 성경 본문 지원.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
