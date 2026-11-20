@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#1E3A8A"/>
+  <rect x="28" y="28" width="456" height="456" rx="84" stroke="#FBF9F5" stroke-opacity="0.18" stroke-width="4"/>
+  <!-- Open Torah Book / Scroll Emblem -->
+  <path d="M120 156C120 142.745 130.745 132 144 132H216C235.882 132 252 148.118 252 168V372C252 356.536 239.464 344 224 344H144C130.745 344 120 333.255 120 320V156Z" fill="#FBF9F5"/>
+  <path d="M392 156C392 142.745 381.255 132 368 132H296C276.118 132 260 148.118 260 168V372C260 356.536 272.536 344 288 344H368C381.255 344 392 333.255 392 320V156Z" fill="#F7F4EE"/>
+  <!-- Spine & Ribbon -->
+  <path d="M256 164V378" stroke="#1E3A8A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M256 344V406L238 392L220 406V344" fill="#D97706"/>
+  <!-- Subtle Scripture Lines -->
+  <path d="M156 184H224M156 220H224M156 256H212M156 292H224" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M288 184H356M288 220H356M288 256H344M288 292H356" stroke="#1E3A8A" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -11,6 +11,8 @@ import { Header } from './components/Header';
 import { WeekNavigator } from './components/WeekNavigator';
 import { PortionReader } from './components/PortionReader';
 import { PortionIndexRail } from './components/PortionIndexRail';
+import { PWAInstallButton } from './components/PWAInstallButton';
+import { OfflineIndicator } from './components/OfflineIndicator';
 
 const COMPLETED_STORAGE_KEY = 'torah_completed_ids_v1';
 const FONT_SCALE_STORAGE_KEY = 'torah_font_scale_v1';
@@ -171,7 +173,10 @@ export default function App() {
 
       <main className="flex-1 w-full max-w-[1360px] mx-auto px-4 sm:px-8 py-6 sm:py-8">
         {/* Top Week Navigation Key Strip: 이전 · 이번 주 · 다음 */}
-        <div className="mb-6">
+        <div className="mb-6 space-y-3">
+          <div className="flex justify-end empty:hidden">
+            <PWAInstallButton />
+          </div>
           <WeekNavigator
             currentPortion={currentPortion}
             prevPortion={prevPortion}
@@ -238,6 +243,8 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      <OfflineIndicator />
     </div>
   );
 }
